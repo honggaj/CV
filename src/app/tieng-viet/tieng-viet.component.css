@@ -1,0 +1,195 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background: #fff;
+        }
+        
+        .cv-container {
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 1mm;
+            min-height: 297mm;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 15px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .header h2 {
+            font-size: 16px;
+            color: #7f8c8d;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 14px;
+            color: #555;
+            flex-wrap: wrap;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+        }
+        
+        .objective {
+            text-align: justify;
+            line-height: 1.5;
+            font-size: 14px;
+            color: #555;
+        }
+        
+        .project-item {
+            margin-bottom: 16px;
+        }
+        
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 6px;
+        }
+        
+        .project-title {
+            font-weight: 600;
+            font-size: 15px;
+            color: #2c3e50;
+        }
+        
+        .project-date {
+            font-size: 13px;
+            color: #7f8c8d;
+            white-space: nowrap;
+        }
+        
+        .project-subtitle {
+            font-size: 13px;
+            color: #2c3e50;
+            margin-bottom: 4px;
+        }
+        
+        .project-details {
+            font-size: 13px;
+            line-height: 1.4;
+        }
+        
+        .project-details ul {
+            margin: 6px 0 6px 15px;
+        }
+        
+        .project-details li {
+            margin-bottom: 3px;
+        }
+        
+        .tech-stack {
+            font-weight: 500;
+            color: #34495e;
+            margin: 6px 0;
+        }
+        
+        .project-links {
+            font-size: 13px;
+            margin-top: 4px;
+        }
+        
+        .project-links a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            font-size: 14px;
+        }
+        
+        .skill-category {
+            margin-bottom: 8px;
+        }
+        
+        .skill-title {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 4px;
+        }
+        
+        .education-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        
+        .education-content {
+            flex: 1;
+        }
+        
+        .education-title {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 14px;
+        }
+        
+        .education-subtitle {
+            color: #2c3e50;
+            font-size: 13px;
+            margin-top: 2px;
+        }
+        
+        .education-date {
+            font-size: 13px;
+            color: #7f8c8d;
+            white-space: nowrap;
+        }
+        
+        @media print {
+            .cv-container {
+                margin: 0;
+                padding: 5mm;
+                max-width: none;
+            }
+            
+            body {
+                -webkit-print-color-adjust: exact;
+            }
+        }
+        
+        @page {
+            size: A4;
+            margin: 0;
+        }
