@@ -4,6 +4,7 @@ import { CvEnglishComponent } from './cv-english/cv-english.component';
 import { TiengVietComponent } from './tieng-viet/tieng-viet.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/english', pathMatch: 'full'},
   {path: 'english',component: CvEnglishComponent}, 
   {path:'tiengViet',component: TiengVietComponent},
 ];
